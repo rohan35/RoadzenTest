@@ -1,0 +1,29 @@
+[
+  {
+    "header": "Insurance Company Details",
+    "questions": [
+      {
+        "hint": "Customer Name",
+        "type": "text"
+      },
+      {
+        "hint": "Customer Phone",
+        "type": "textNumeric",
+        "validation":{
+          "size":10
+        }
+      },
+      {
+        "hint": "Customer Address",
+        "type": "text"
+      },
+      {
+        "hint": "ZipCode",
+        "type": "textNumeric",
+        "validation":{
+          "size":6
+        }
+      }
+    ]
+  }
+  ]
